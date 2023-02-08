@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sprout</title>
+    <link rel="icon" href="images/sprout_favicon.webp">
+<!--bootstrap-->
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css'>
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js'></script>
+
+    <link rel="stylesheet" href="css/style.css">
+ <!--slider-->
+<!--fontawesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+    <nav class="navbar navbar-expand-lg" id="nav_bar">
+      <div class="container">
+        <img src="images/logo_header.webp" id="logo_style"  href="index.html"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-list"></i>
+    
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-md-auto gap-2">
+            <li class="nav-item rounded">
+              <a class="nav-link" aria-current="page" href="index.html"> HOME</a>
+            </li>
+            <li class="nav-item rounded">
+              <a class="nav-link" href="aboutus.html">ABOUT US</a>
+            </li>
+            
+            <li class="nav-item rounded">
+              <a class="nav-link" href="responsibility.html">RESPONSIBILITY </a>
+            </li>
+            <li class="nav-item rounded">
+              <a class="nav-link active_index" href="product.html">OUR PRODUCTS </a>
+            </li>
+            <li class="nav-item rounded">
+              <a class="nav-link" href="contact.html">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="governanace_banner">
+        <p>OUR PRODUCTS</p>
+    </section>
+
+    <section class="product_image">
+        <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card" id="cards" style="width: 18rem;">
+                    <a href="blodegradable.html"><img src="images/biodegradable-single0wall.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">BIODEGRADABLE
+                        PAPER CUPS</h5>
+                      
+                    </div></a>
+                  </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card"id="cards" style="width: 18rem;">
+                    <a href="#"><img src="images/paper-bag.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">PAPER BAGS </h5>
+                      
+                    </div></a>
+                  </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" id="cards" style="width: 18rem;">
+                    <a href="#"><img src="images/paper-plates.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">PAPER PLATES</h5>
+                      
+                    </div></a>
+                  </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="product_images">
+        <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card" id="cards" style="width: 18rem;">
+                    <a href="#"><img src="images/paper-straw.webp"  class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">PAPER STRAWS</h5>
+                      
+                    </div></a>
+                  </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" id="cards" style="width: 18rem;">
+                    <a href="#"><img src="images/paper-leaf1-1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">PAPER LEAF </h5></a>
+                      
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" id="cards" style="width: 18rem;">
+                    <a href="#"><img src="images/paper-reels.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">PAPER REELS
+                    </h5></a>
+                      
+                    </div>
+                  </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="footer_section">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-6 offset-lg-3">
+                  <div class="footer-content text-center">
+                      <a href="index.html"><img src="images/footer_logo.webp" alt="sprout_logo"></a>
+                      <div class="footer_menu">
+                          <ul>
+                              <li><a href="index.html">HOME</a></li>
+                              <li><a href="aboutus.html">ABOUT US</a></li>
+                              <li><a href="responsibility.html">RESPONSIBILITY</a></li>
+                              <li><a href="product.html">OUR PRODUCT</a></li>
+                              <li id="last_menu"><a href="contact.html">CONTACT US</a></li>
+                          </ul>
+                      </div>
+                      <div class="footer_social">
+                        <ul>
+                            <li><a href="https://www.facebook.com/sproutprivatelimited" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCuFoWOMFA-qOlH_Paaj7RgQ" target="_blank"><i class="fa-brands fa-youtube"></i></i></a></li>
+                            <li><a href="https://web.whatsapp.com/send?phone=+919656512535&text&app_absent=0" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+                        </ul>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <section class="footer_copy text-center">
+          <p><span><a href="index.html">Sprout Group</a> </span>© 2023. Developed by <span><a href="https://debrandguru.com/" target="_blank">Brand Guru</a></span></p>
+      </section>
+  </section>
+  <script src="js/scroll.js"></script>
+    </body>
+    </html>

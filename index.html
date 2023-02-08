@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sprout</title>
+    <link rel="icon" href="images/sprout_favicon.webp">
+
+<!--bootstrap-->
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css'>
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js'></script>
+
+    <link rel="stylesheet" href="css/style.css">
+ <!--slider-->
+ <!--animation-->
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ <!--fontawesome-->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+ <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+ 
+</head>
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+    <nav class="navbar navbar-expand-lg nav_green" id="nav_bar">
+      <div class="container">
+        <img src="images/logo_white.webp" id="logo_style"  href="index.html"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-list"></i>
+    
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-md-auto gap-2">
+            <li class="nav-item rounded">
+              <a class="nav-link" id="active_index_white" aria-current="page" href="index.html"> HOME</a>
+            </li>
+            <li class="nav-item rounded">
+              <a class="nav-link" href="aboutus.html">ABOUT US</a>
+            </li>
+            
+            <li class="nav-item rounded">
+              <a class="nav-link" href="responsibility.html">RESPONSIBILITY </a>
+            </li>
+            <li class="nav-item rounded">
+              <a class="nav-link " href="product.html">OUR PRODUCTS </a>
+            </li>
+           
+            <li class="nav-item rounded">
+              <a class="nav-link" href="contact.html">CONTACT US</a>
+            </li>
+           
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section id='home'>
+          
+      
+          <section id='background-video'>
+              <video autoplay loop muted>
+                  <source src="images/Web_Banner_01.mp4">
+              </video>
+       <!--       <div id='overlay'>
+                  <p id="investing">Investing to Make an Impact</p>
+                 
+                  <p id="Info">As a multifaceted enterprise, Sprout Group is committed to playing a vital role in building
+                      a stronger and more sustainable economy that benefits society in general.</p>
+              </div> -->
+          </section>
+      </section>
+      </main>
+<!-- MDB -->
+
+<!--index about-->
+<section class="index_about">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 index_about_image">
+        <div data-aos="fade-up-right"
+    data-aos-duration="1500">
+
+        <img src="images/Paper_Glass.webp" style="width: 100%;">
+        </div>
+      </div>
+      <div class="col-sm-6">
+   <!--     <h4 class="index_head_about">ABOUT US</h4> -->
+   <div data-aos="fade-up-left"
+    data-aos-duration="1500">
+
+        <p class="history_p history_padding">SPROUT GROUP is a privately owned, internationally focused multifaceted enterprise with worldclass capabilities spanning the entire client value chain. We operate an integrated business model
+          comprising the full range of engineering, construction, manufacturing of biodegradable disposables
+          and exports of fair & organic products for some of the world’s most prestigious public and private
+          organisations.</p>
+          <p class="index_performance">PERFORMANCE EXCELLENCE</p>
+          <p class="history_p">Sprout Group is committed to the development of a culture based on Excellence Plus Performance.
+            The Group sets stretching targets in all its operations globally and by applying the five elements of
+            Excellence Plus Performance – Client Focus, Innovation, Responsible Behaviour, Sustainable
+            Development and Environmental Protection– it will achieve its vision to be the company of first choice
+            for all stakeholders, able to challenge and change the poor practices synonymous with industry, and
+            compete alongside world-leading businesses.</p>
+         
+            <button type="button" class="btns btn-success" onclick="location.href = 'aboutus.html';">MORE ABOUT US
+            </button>
+            </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="product_slide">
+  <div class="productss">
+    <h2>PRODUCTS</h2>
+    </div>
+  <div class="slide-container swiper">
+    <div class="slide-content">
+        <div class="card-wrapper swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                        <img src="images/biodegradable-single0wall.webp" alt="" class="card-img">
+                    </div>
+                </div>
+
+                <div class="card-content">
+                    <h2 class="card-title_product">BIODEGRADABLE
+                      PAPER CUPS</h2>
+                    
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                        <img src="images/paper-bag.webp" alt="" class="card-img">
+                    </div>
+                </div>
+
+                <div class="card-content">
+                    <h2 class="card-title_product">PAPER BAGS</h2>
+                   
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                        <img src="images/paper-plates.webp" alt="" class="card-img">
+                    </div>
+                </div>
+
+                <div class="card-content">
+                    <h2 class="card-title_product">PAPER PLATES</h2>
+                    
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                       <img src="images/paper-straw.webp" alt="" class="card-img">
+                    </div>
+                </div>
+
+                <div class="card-content">
+                    <h2 class="card-title_product">PAPER STRAWS</h2>
+                    
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                        <img src="images/paper-leaf1-1.webp" alt="" class="card-img">
+                    </div>
+                </div>
+
+                <div class="card-content">
+                    <h2 class="card-title_product">PAPER LEAF</h2>
+                    
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                        <img src="images/paper-reels.webp" alt="" class="card-img">
+                    </div>
+                </div>
+
+                <div class="card-content">
+                    <h2 class="card-title_product">PAPER REELS</h2>
+                    
+                </div>
+            </div>
+
+
+ 
+        </div>
+    </div>
+
+    <div class="swiper-button-next swiper-navBtn"></div>
+    <div class="swiper-button-prev swiper-navBtn"></div>
+    <div class="swiper-pagination"></div>
+</div>
+</section>
+
+<section class="env">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <div data-aos="fade-up-right"
+    data-aos-duration="1500">
+
+      <p class="index_head_about">ENVIRONMENT</p>
+      <p class="history_p">Sprout Group is committed to the protection and enhancement of the environment.
+        High environmental performance is an ongoing priority and is achieved by our
+        actions in line with this policy. This policy sits alongside our sustainability policy
+        as part of our global policy framework, underpinned by our Global Code of Conduct</p>
+        <p class="history_p">We are committed to leading the evolution of our industry to be truly sustainable
+          environmentally, socially and economically. This is fundamental to our vision to create
+          the best places, places for people today and for generations to come.
+          </p>
+          <button type="button" class="btns btn-success" id="envi_button" onclick="location.href = 'responsibility.html';">READ MORE
+          </button>
+          </div>
+          </div>
+          <div class="col-sm-6 index_environment_image">
+            <div data-aos="fade-up-left"
+    data-aos-duration="1500">
+
+            <img src="images/soil-green-farming-small-background.webp" style="width: 100%;">
+            </div>
+          </div>
+    </div>
+  </div>
+</section>
+
+<section class="what_we_do">
+  <div class="container">
+    <h4>WHAT WE DO</h4>
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="card" id="cards" style="width: 15rem;">
+          <img src="images/img 4.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+          <h5 class="card-title card_padding" id="card_font">CONSULTANCY
+            & SERVICES</h5>
+          
+          </div>
+          </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="card" id="cards" style="width: 15rem;">
+          <img src="images/img.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+          <h5 class="card-title" id="card_font">INTEGRATION &
+            SUPPLY MANAGEMENT</h5>
+          
+          </div>
+          </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="card" id="cards" style="width: 15rem;">
+          <img src="images/img 3.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+          <h5 class="card-title card_padding" id="card_font">PARTS INSPECTION
+            & REPAIRS</h5>
+          
+          </div>
+          </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card" id="cards" style="width: 15rem;">
+          <img src="images/img 5.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+          <h5 class="card-title card_padding" id="card_font">SUPPLY & 
+            DISTRIBUTION</h5>
+          
+          </div>
+          </div>
+      </div>
+    </div>
+
+  </div>
+  </section>
+
+<section class="index_governance_section">
+  <div class="container">
+      <div class="row" id="slide_governance"> 
+        <div data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom"
+     data-aos-duration="2000">
+
+        <p class="slide-title">GOVERNANCE</p>
+        <p class="slide-subtitle">Sprout Group’s shareholders are committed to achieving corporate governance standards that meet the highest possible
+          levels of integrity and compliance for a privately owned enterprise. We evaluate the effectiveness of our decision-making,
+          accountability and audit processes. We believe this is the best way of ensuring the sustainable long-term growth and
+          success of the Group.<br> <br>
+          Good corporate governance is integral to the Shareholders and Board’s objective to sustain an organisational culture based
+          on the Group’s vision and values, placing strong emphasis on upholding the highest standards of business conduct, ethics
+          and integrity amongst the Group’s employees, supply chain and other business partners. This approach is encompassed in
+          our Global Code of Conduct.</p>
+          <div class="slide_button">
+          <button type="button" class="btns btn-governance" onclick="location.href = 'governance.html';">READ MORE
+          </button>
+          </div>
+        </div>
+      </div>
+      
+  </div>
+
+
+</section>
+
+<section class="index_three_card_section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+       
+          <div class="index_three_card_column"> 
+            <a href="greenpack.html">
+          <img src="images/icon_greenpak.webp" alt="">
+          
+          <p class="greenpak">GREENPAK </p>
+        </a>
+         </div>
+  
+      </div>
+      <div class="col-sm-4">
+        <div class="index_three_card_column">
+          <a href="governance.html">
+          <img src="images/icons_governance.webp" alt="">
+          <p class="greenpak">GOVERNANCE</p>
+        </a>
+      </div>
+      
+  
+      </div>
+      <div class="col-sm-4">
+        <div class="index_three_card_column">
+          <a href="brand.html">
+          <img src="images/icon_brand_with.webp" alt="">
+          <p class="greenpak">BRAND WITH US</p>
+        </a>
+         </div> 
+      </div>
+  
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section class="footer_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="footer-content text-center">
+                    <a href="index.html"><img src="images/footer_logo.webp" alt="sprout_logo"></a>
+                    <div class="footer_menu">
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="aboutus.html">ABOUT US</a></li>
+                            <li><a href="responsibility.html">RESPONSIBILITY</a></li>
+                            <li><a href="product.html">OUR PRODUCT</a></li>
+                            <li id="last_menu"><a href="contact.html">CONTACT US</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_social">
+                      <ul>
+                          <li><a href="https://www.facebook.com/sproutprivatelimited" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                          <li><a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                          <li><a href="https://www.youtube.com/channel/UCuFoWOMFA-qOlH_Paaj7RgQ" target="_blank"><i class="fa-brands fa-youtube"></i></i></a></li>
+                          <li><a href="https://web.whatsapp.com/send?phone=+919656512535&text&app_absent=0" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+                      </ul>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="footer_copy text-center">
+        <p><span><a href="index.html">Sprout Group</a> </span>© 2023. Developed by <span><a href="https://debrandguru.com/" target="_blank">Brand Guru</a></span></p>
+    </section>
+</section>
+
+
+
+
+
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"
+></script>
+<script src="js/scroll.js"></script>
+
+<script  src="js/scrollScript.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+  
+</script>
+
+</body>
+</html>

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sprout</title>
+    <link rel="icon" href="images/sprout_favicon.webp">
+<!--bootstrap-->
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css'>
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js'></script>
+
+    <link rel="stylesheet" href="css/style.css">
+ <!--slider-->
+<!--fontawesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!--font-->
+<link rel="preload" href="transfonter.org-20230112-104004/CharlevoixPro-Regular.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="transfonter.org-20230112-104004/CharlevoixPro-Regular.woff2" as="font" type="font/woff2" crossorigin>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" rel="stylesheet">
+
+
+</head>
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+    <nav class="navbar navbar-expand-lg" id="nav_bar">
+      <div class="container">
+        <img src="images/logo_header.webp" id="logo_style" href="index.html"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-list"></i>
+    
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-md-auto gap-2">
+            <li class="nav-item rounded">
+              <a class="nav-link" aria-current="page" href="index.html"> HOME</a>
+            </li>
+            <li class="nav-item rounded">
+              <a class="nav-link active_index" href="aboutus.html">ABOUT US</a>
+            </li>
+            
+            <li class="nav-item rounded">
+              <a class="nav-link" href="responsibility.html">RESPONSIBILITY </a>
+            </li>
+            <li class="nav-item rounded">
+              <a class="nav-link " href="product.html">OUR PRODUCTS </a>
+            </li>
+            <li class="nav-item rounded">
+              <a class="nav-link" href="contact.html">CONTACT US</a>
+            </li>
+           
+          
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="governanace_banner">
+      <p>ABOUT US</p>
+  </section>
+
+    <section class="index_about">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 about_image_top">
+              <img src="images/Paper_Glass.webp" class="about_image" >
+            </div>
+            <div class="col-sm-6">
+             
+              <p class="paragraph history_padding">SPROUT GROUP is a privately owned, internationally focused multifaceted enterprise with worldclass capabilities spanning the entire client value chain. We operate an integrated business model
+                comprising the full range of engineering, construction, manufacturing of biodegradable disposables
+                and exports of fair & organic products for some of the world’s most prestigious public and private
+                organisations.</p>
+                <p class="index_performance">PERFORMANCE EXCELLENCE</p>
+                <p class="paragraph">Sprout Group is committed to the development of a culture based on Excellence Plus Performance.
+                  The Group sets stretching targets in all its operations globally and by applying the five elements of
+                  Excellence Plus Performance – Client Focus, Innovation, Responsible Behaviour, Sustainable
+                  Development and Environmental Protection– it will achieve its vision to be the company of first choice
+                  for all stakeholders, able to challenge and change the poor practices synonymous with industry, and
+                  compete alongside world-leading businesses.</p>
+                  <button type="submit" id="more_button" class="btn btn-success" onclick="return blockHandle()">MORE ABOUT US
+                  </button>
+
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div id="message" class="alert alert-light" style="display: none;">
+              <p class="paragraph">As a multifaceted enterprise, Sprout Group is committed to playing a vital role in building a stronger and more sustainable economy that benefits society in general.</p>
+              <p class="subheading">INNOVATION</p>
+              <p class="paragraph">As a company we are passionate about harnessing innovation as a positive force for change. We instil this mindset culturally in every element of our operations and project delivery. We invest heavily in research and evelopment both with our research labs partnerships and at the operational level within our manufacturing and engineering facilities where we put the theory into practice.</p>
+              <p class="subheading">RESPONSIBLE BEHAVIOUR</p>
+              <p class="paragraph">We take our duty to act responsibly at all times very seriously through proactively managing the impacts of our activities on the environment, our people and the communities in which we operate. We work according to the guiding principles of our founding shareholders and by complying with the high standards set out in our Global Code of Conduct. In particular, we place the safety of those involved in or affected by our operations as our core organisational value, aiming to eliminate all accidents on our projects by 2025. We also take a leading role in driving change across our industry by seeking ways to reduce the effect of our operations on the environment through modernisation of traditional methods and practices.</p>
+              <p class="subheading">PEOPLE DEVELOPMENT</p>
+              <p class="paragraph">At the heart of our drive to challenge and change the engineering industry are our people. We believe in employing and developing the very best talent in the industry, challenging them to find and follow a better way and deliver excellence for our clients whilst leaving a lasting legacy for the communities in which we operate.</p>
+              <button type="submit" id="less_button" class="btn btn-success" onclick="return blockHandle_less()">READ LESS
+              </button>
+            
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="history">
+<div class="container">
+    <div class="about_history">
+
+    
+    <p>OUR HISTORY</p>
+    </div>
+    <p class="history_p">The history of Sprout Group is one of energy, passion, ambition, people and teamwork. With origins stretching from 2015, the company has grown into a international
+        company with clients in Asia, the Middle East, Africa, Canada and Europe delivering the finest of biodegradable disposable products.</p>
+
+    </div>
+      </section>
+      <section class="history_flowchart">
+        <div class="container">
+            <img src="images/about_flow.webp" style="width: 100%;">
+        </div>
+      </section>
+
+      <section class="where_work">
+        <div class="container">
+            <div class="row">
+            <div class="col-sm-6">
+                <p class="work">WHERE WE WORK
+                </p>
+                <p class="work_normal">Sprout Group operates from two major geographic hubs, Asia & Europe</p>
+                <p class="work_head">EUROPE HUB</p>
+                <p class="work_normal">Our Europe Hub comprises of operations in research and marketing sectors covering principle markets in the United Kingdom & Ireland.
+                    </p>
+                    <p class="work_head">ASIA HUB
+                    </p>
+                    <p class="work_normal">Our Asia Hub has a diversified portfolio through principle operations in Asia, Middle East & Africa</p>
+                        <!--<button type="button" class="btn btn-success">KNOW MORE
+                        </button>-->
+            </div>
+            <div class="col-sm-6 wordabout">
+                <img src="images/map-new-01-01-01.webp" style="width: 100%;">
+            </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="team">
+        <div class="container">
+          <div class="sprout_team">
+        
+          <p class="team_head">OUR TEAM<p>
+
+          <div class="brand-carousel section-padding owl-carousel">
+            <div class="single-logo"><img alt="" src="images/sandeep.webp"><p class="team_name">SANDEEP</p></div>
+            <div class="single-logo"><img alt="" src="images/santhosh.webp"><p class="team_name">SANTHOSH</p></div>
+            <div class="single-logo"><img alt="" src="images/anad.webp"><p class="team_name">ANAND</p></div>
+            <div class="single-logo"><img alt="" src="images/anju.webp"><p class="team_name">ANJU</p></div>
+            <div class="single-logo"><img alt="" src="images/neethu.webp"><p class="team_name">NEETHU</p></div>
+            <div class="single-logo"><img alt="" src="images/sooraj.webp"><p class="team_name">SOORAJ</p></div>
+            <div class="single-logo"><img alt="" src="images/thomas.webp"><p class="team_name">THOMAS</p></div>
+          </div>
+
+          </div>
+          
+        </div>
+         </section>
+
+         <section class="supply">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <img src="images/about_supply.webp" style="width: 100%;">
+              </div>
+              <div class="col-sm-6">
+                <p class="supply_chain">SUPPLY CHAIN</p>
+                <p class="history_p">Sprout works with thousands of suppliers around the world that share our values
+                  and principles to help ensure the places and the products we create are incident
+                  and injury free, absolute biodegradable and Earth friendly, and Plastic free for our
+                  people and the Earth, while also helping us maintain a sustainable and
+                  internationally-competitive supply chain. Facilitating diversity in our procurement
+                  strategy allows us to tap into the widest possible pool of suppliers in order to
+                  deliver high quality outcomes for our customers.
+                  </p>
+                  <button type="button" class="btn btn-success">KNOW MORE
+                  </button>
+              </div>
+            </div>
+          </div>
+         </section>
+
+
+         <section class="footer_section">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-6 offset-lg-3">
+                      <div class="footer-content text-center">
+                          <a href="index.html"><img src="images/footer_logo.webp" alt="sprout_logo"></a>
+                          <div class="footer_menu">
+                              <ul>
+                                  <li><a href="index.html">HOME</a></li>
+                                  <li><a href="aboutus.html">ABOUT US</a></li>
+                                  <li><a href="responsibility.html">RESPONSIBILITY</a></li>
+                                  <li><a href="product.html">OUR PRODUCT</a></li>
+                                  <li id="last_menu"><a href="contact.html">CONTACT US</a></li>
+                              </ul>
+                          </div>
+                          <div class="footer_social">
+                            <ul>
+                                <li><a href="https://www.facebook.com/sproutprivatelimited" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCuFoWOMFA-qOlH_Paaj7RgQ" target="_blank"><i class="fa-brands fa-youtube"></i></i></a></li>
+                                <li><a href="https://web.whatsapp.com/send?phone=+919656512535&text&app_absent=0" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+                            </ul>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <section class="footer_copy text-center">
+              <p><span><a href="index.html">Sprout Group</a> </span>© 2023. Developed by <span><a href="https://debrandguru.com/" target="_blank">Brand Guru</a></span></p>
+          </section>
+      </section>
+
+    <script>
+      function blockHandle(){
+        more_button.style.display="none";
+        message.style.display="block";
+      }
+      function blockHandle_less(){
+        more_button.style.display="block";
+        message.style.display="none";
+      }
+    </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+</script> 
+<script src="js/team_slide.js"></script>
+<script src="js/scroll.js"></script>
+    </body>
+    </html>  
